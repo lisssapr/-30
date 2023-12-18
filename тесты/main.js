@@ -1,28 +1,20 @@
 //  // 30.1
 //  let inputElement = document.getElementById('answerInput');
 
-//  // Добавляем обработчик события keydown к input
 //  inputElement.addEventListener('keydown', function(event) {
-//      // Проверяем, была ли нажата клавиша Enter (код клавиши 13)
 //      if (event.key === 'Enter') {
-//          // Вызываем функцию для проверки ответа
 //          checkAnswer();
 //      }
 //  });
 
-//  // Функция для проверки ответа
 //  function checkAnswer() {
-//      // Получаем значение из input
-//      let userAnswer = inputElement.value.trim(); // trim() убирает пробелы в начале и конце строки
+//      let userAnswer = inputElement.value.trim(); 
 
-//      // Проводим проверку ответа (замените эту часть кода на вашу логику проверки)
 //      if (userAnswer.toLowerCase() === 'правильный ответ') {
 //          alert('Правильно!');
 //      } else {
 //          alert('Неправильно. Попробуйте еще раз.');
 //      }
-
-//      // Очищаем input после проверки
 //      inputElement.value = '';
 //  }
 
@@ -31,19 +23,13 @@
 // 30.2
 //  let inputElement = document.getElementById('answerInput');
 
-//         // Функция для проверки ответа
 //         function checkAnswer() {
-//             // Получаем значение из input
-//             let userAnswer = inputElement.value.trim(); // trim() убирает пробелы в начале и конце строки
-
-//             // Проводим проверку ответа (замените эту часть кода на вашу логику проверки)
+//             let userAnswer = inputElement.value.trim(); 
 //             if (userAnswer.toLowerCase() === 'правильный ответ') {
 //                 alert('Правильно!');
 //             } else {
 //                 alert('Неправильно. Попробуйте еще раз.');
 //             }
-
-//             // Очищаем input после проверки
 //             inputElement.value = '';
 //         }
 
@@ -82,7 +68,6 @@
 // let testContainer = document.querySelector('#test');
 // let checkButton = document.querySelector('#button');
 
-// // Создаем дивы с вопросами и инпутами
 // voprosick.forEach((question, index) => {
 //   let questionDiv = document.createElement('div');
 //   questionDiv.innerHTML = `<p>${question}</p><input>`;
